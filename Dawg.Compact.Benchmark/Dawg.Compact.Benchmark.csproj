@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DAWG" Version="1.2.0" />
+    <PackageReference Include="DawgSharp" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dawg.Compact\Dawg.Compact.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\Dawg.Compact.Data\Dawg.Compact.Data.projitems" Label="Shared" />
+
+</Project>

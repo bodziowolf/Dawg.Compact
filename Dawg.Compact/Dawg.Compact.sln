@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dawg.Compact", "Dawg.Compact.csproj", "{16A5D02A-D95C-4259-9ED1-0C1207370768}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dawg.Compact.Benchmark", "..\Dawg.Compact.Benchmark\Dawg.Compact.Benchmark.csproj", "{9A0E2686-E520-41C9-92B3-290247EDDBEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dawg.Compact.Tests", "..\Dawg.Compact.Tests\Dawg.Compact.Tests.csproj", "{D34E40EF-C9FD-4149-8C76-49DA61420A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawg.Compact.Demo", "..\Dawg.Compact.Demo\Dawg.Compact.Demo.csproj", "{9C932827-86BD-413E-8D9F-EE506DA88095}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Dawg.Compact.Data", "..\Dawg.Compact.Data\Dawg.Compact.Data.shproj", "{E7387162-E53D-481D-A03A-4994DD2C43FA}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Dawg.Compact.Data\Dawg.Compact.Data.projitems*{e7387162-e53d-481d-a03a-4994dd2c43fa}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16A5D02A-D95C-4259-9ED1-0C1207370768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A5D02A-D95C-4259-9ED1-0C1207370768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A5D02A-D95C-4259-9ED1-0C1207370768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A5D02A-D95C-4259-9ED1-0C1207370768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0E2686-E520-41C9-92B3-290247EDDBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0E2686-E520-41C9-92B3-290247EDDBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0E2686-E520-41C9-92B3-290247EDDBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0E2686-E520-41C9-92B3-290247EDDBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34E40EF-C9FD-4149-8C76-49DA61420A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34E40EF-C9FD-4149-8C76-49DA61420A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34E40EF-C9FD-4149-8C76-49DA61420A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34E40EF-C9FD-4149-8C76-49DA61420A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C932827-86BD-413E-8D9F-EE506DA88095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C932827-86BD-413E-8D9F-EE506DA88095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C932827-86BD-413E-8D9F-EE506DA88095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C932827-86BD-413E-8D9F-EE506DA88095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08B61682-87E5-48FF-AB41-F0D241232341}
+	EndGlobalSection
+EndGlobal
