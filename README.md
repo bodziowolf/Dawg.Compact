@@ -16,36 +16,40 @@ bool hasPrefix = matcher.HasPrefix("ca");
 
 ## Benchmarks 
 ### Dictionary Build Time
-                     Implementation|Time
------------------------------------|----------------
-                     *Dawg.Compact*|00:00:01.8421006
-   Dawg.Compact (before compacting)|00:00:01.4801577
-                          DawgSharp|00:00:01.7217895
-             DAWG (AdamSpeight2008)|00:00:00.6072873
+
+Implementation|Time
+--------------|----
+Dawg.Compact|00:00:01.8421006
+Dawg.Compact (before compacting)|00:00:01.4801577
+DawgSharp|00:00:01.7217895
+DAWG (AdamSpeight2008)|00:00:00.6072873
 
 ### Prefix Completion Suggestions (10 000 000 prefixes, tested 10 times, averaged run time)
-                     Implementation|Time
------------------------------------|----------------
-                     *Dawg.Compact*|00:00:06.0257105
-   Dawg.Compact (before compacting)|00:00:21.3418086
-                          DawgSharp|00:00:14.5927630
-             DAWG (AdamSpeight2008)|not available
+
+Implementation|Time
+--------------|----
+Dawg.Compact|00:00:06.0257105
+Dawg.Compact (before compacting)|00:00:21.3418086
+DawgSharp|00:00:14.5927630
+DAWG (AdamSpeight2008)|not available
 
 ### Check If Word Exists (10 000 000 prefixes, tested 10 times, averaged run time)
-                     Implementation|Time
------------------------------------|----------------
-                     *Dawg.Compact*|00:00:01.0424479
-   Dawg.Compact (before compacting)|00:00:02.4014963
-                          DawgSharp|00:00:01.5317197
-             DAWG (AdamSpeight2008)|00:00:05.0766425
+
+Implementation|Time
+--------------|----
+Dawg.Compact|00:00:01.0424479
+Dawg.Compact (before compacting)|00:00:02.4014963
+DawgSharp|00:00:01.5317197
+DAWG (AdamSpeight2008)|00:00:05.0766425
 
 ### Check If Prefix Exists (10 000 000 prefixes, tested 10 times, averaged run time)
-                     Implementation|Time
------------------------------------|----------------
-                     *Dawg.Compact*|00:00:01.0546408
-   Dawg.Compact (before compacting)|00:00:02.3811045
-                          DawgSharp|not available
-             DAWG (AdamSpeight2008)|not available
+
+Implementation|Time
+--------------|----
+Dawg.Compact|00:00:01.0546408
+Dawg.Compact (before compacting)|00:00:02.3811045
+DawgSharp|not available
+DAWG (AdamSpeight2008)|not available
 
 Where:
 * Dawg.Compact is CompactDawg class you would normally use from this library
